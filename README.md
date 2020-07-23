@@ -1,11 +1,12 @@
 # kaholo-trigger-datadog
 Kaholo Trigger for Datadog whenever a specific alert happens it will cause Kaholo's map to run.
 
-# Method: Datadog Alert webhook
+## Method: Datadog Alert webhook
 **Parameter**
 
 1. Alert ID. 
 
+## Note:
 1. Make sure you install the webhook integraion.
 2. Make sure that you configure the webhook as follows:
    - URL: <KAHOLO URL>/webhook/datadog/alert
