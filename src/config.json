@@ -1,0 +1,24 @@
+{
+  "name": "datadog-trigger",
+  "type": "trigger",
+  "execProgram": "node",
+  "main": "app.js",
+  "exposeRoute": true,
+  "imgUrl": "logo.png",
+  "version": "1.0.0",
+  "description": "Handle datadog alert webhook",
+  "methods": [
+    {
+      "name": "ALERT_WEBHOOK",
+      "route": "post /webhook/datadog/alert",
+      "viewName": "Datadog alert webhook",
+      "params": [
+        {
+          "name": "ALERT_ID",
+          "viewName": "Alert ID",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
