@@ -23,7 +23,8 @@ Kaholo Trigger for Datadog whenever a specific alert happens it will cause Kahol
       },
       "id": "$ID",
       "alertID": "$ALERT_ID"
-    }```
+    }
+   ```
 
 Note that you MUST supply the pageload with $ALERT_ID as described in the [webhook document](https://docs.datadoghq.com/integrations/webhooks/)
 
