@@ -1,7 +1,4 @@
 function alertWebhook(req, res, settings, triggerControllers) {
-    if (!triggerControllers) {
-        return res.status(400).send("triggers cannot be nil");
-    }
     try {
         const body = req.body;
         const alertId = body.alertId || body.id;
