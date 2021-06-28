@@ -1,0 +1,12 @@
+{
+  "name": "kaholo-trigger-datadog",
+  "version": "1.0.0",
+  "description": "Handles DataDog Webhooks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "author": "Kaholo Group(Amit Alon)",
+  "dependencies": {}
+}
